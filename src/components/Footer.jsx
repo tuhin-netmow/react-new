@@ -1,10 +1,11 @@
 import React from 'react';
 
 export default function Footer() {
-  const footerMsg = "Hello Footer";
   return (
     <footer>
-      <div className='container'><h1>{footerMsg}</h1></div>
+      <div className='container'>
+        <p>&copy; {new Date().getFullYear()} All Rights Reserved</p>
+      </div>
     </footer>
   )
 }
