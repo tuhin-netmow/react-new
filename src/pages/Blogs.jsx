@@ -1,10 +1,10 @@
 import React from 'react';
-import { PageTitle } from '../components/PageTitle';
+import { PageMetaData } from '../components/PageMetaData';
 
 export default function Blogs() {
   return (
     <div className='container'>
-    <PageTitle title="Blogs" />
+    <PageMetaData title="Blogs" />
 
       <h1>Blogs Page</h1>
       </div>

@@ -1,7 +1,7 @@
 import { Helmet } from "react-helmet";
 import React from 'react'
 
-export const PageTitle = ({title, featureImage, metaDescription}) => {
+export const PageMetaData = ({title, featureImage, metaDescription}) => {
   return (
       <Helmet>
           <meta charSet="utf-8" />
