@@ -7,6 +7,6 @@ export default function Contact() {
       <PageMetaData title="Contact" />
 
       <h1>Contact Page</h1>
-      </div>
+    </div>
   )
 }
